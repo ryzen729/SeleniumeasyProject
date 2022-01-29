@@ -15,6 +15,7 @@ public class FirstPageTest extends base{
 	WebDriver driver;
 	Firstformdemo firstobj;
 	CheckForm checkobj;
+	RadioButton radioobj;
 	
 	@BeforeClass
 	public void initialize() {
@@ -45,7 +46,13 @@ public class FirstPageTest extends base{
 		
 	}
 	
-	
+	@Test(priority = 4)
+	public void radioNavigation() {
+		firstobj = new Firstformdemo(driver);
+		radioobj = firstobj.navigateToRadioBox();
+		System.out.println(radioobj.getPageTitle());
+		
+	}
 
 
 	

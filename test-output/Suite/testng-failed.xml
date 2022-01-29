@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="A2A.Seleniummadeeasy.CheckBoxText">
+      <class name="A2A.Seleniummadeeasy.FirstPageTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="Text"/>
           <include name="initialize"/>
+          <include name="closeBrowser"/>
+          <include name="radioNavigation"/>
         </methods>
-      </class> <!-- A2A.Seleniummadeeasy.CheckBoxText -->
+      </class> <!-- A2A.Seleniummadeeasy.FirstPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

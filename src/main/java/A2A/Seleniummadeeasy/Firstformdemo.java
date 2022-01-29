@@ -39,6 +39,9 @@ public class Firstformdemo extends BasePage{
 	@FindBy(linkText = "Checkbox Demo")
 	private WebElement checkform;
 	
+	@FindBy(linkText = "Radio Buttons Demo")
+	private WebElement radiobutton;
+	
 	public void singleInputCheck(String text) {
 		this.enterText(message, text);
 		this.clickButton(submit);
@@ -66,6 +69,13 @@ public class Firstformdemo extends BasePage{
 		inputform.click();
 		checkform.click();
 		return new CheckForm(driver);
+		
+	}
+	
+	public RadioButton navigateToRadioBox() {
+		inputform.click();
+		radiobutton.click();
+		return new RadioButton(driver);
 		
 	}
 
