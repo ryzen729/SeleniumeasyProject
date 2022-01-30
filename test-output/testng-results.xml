@@ -1,63 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-29T21:40:25 NPT" name="Suite" finished-at="2022-01-29T21:40:39 NPT" duration-ms="14431">
+  <suite started-at="2022-01-30T12:44:50 NPT" name="Suite" finished-at="2022-01-30T12:45:07 NPT" duration-ms="17318">
     <groups>
     </groups>
-    <test started-at="2022-01-29T21:40:25 NPT" name="Test" finished-at="2022-01-29T21:40:39 NPT" duration-ms="14431">
+    <test started-at="2022-01-30T12:44:50 NPT" name="Test" finished-at="2022-01-30T12:45:07 NPT" duration-ms="17318">
       <class name="A2A.Seleniummadeeasy.CheckBoxText">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:A2A.Seleniummadeeasy.CheckBoxText@694abbdc]" started-at="2022-01-29T21:40:33 NPT" name="initialize" finished-at="2022-01-29T21:40:38 NPT" duration-ms="5023" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:A2A.Seleniummadeeasy.CheckBoxText@4372b9b6]" started-at="2022-01-30T12:44:57 NPT" name="initialize" finished-at="2022-01-30T12:45:01 NPT" duration-ms="3815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="checkDisplayedCheck()[pri:1, instance:A2A.Seleniummadeeasy.CheckBoxText@694abbdc]" started-at="2022-01-29T21:40:38 NPT" name="checkDisplayedCheck" finished-at="2022-01-29T21:40:38 NPT" duration-ms="564" status="PASS">
+        <test-method signature="checkDisplayedCheck()[pri:1, instance:A2A.Seleniummadeeasy.CheckBoxText@4372b9b6]" started-at="2022-01-30T12:45:01 NPT" name="checkDisplayedCheck" finished-at="2022-01-30T12:45:01 NPT" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDisplayedCheck -->
-        <test-method signature="checkSelected()[pri:2, instance:A2A.Seleniummadeeasy.CheckBoxText@694abbdc]" started-at="2022-01-29T21:40:38 NPT" name="checkSelected" finished-at="2022-01-29T21:40:39 NPT" duration-ms="115" status="PASS">
+        <test-method signature="checkSelected()[pri:2, instance:A2A.Seleniummadeeasy.CheckBoxText@4372b9b6]" started-at="2022-01-30T12:45:01 NPT" name="checkSelected" finished-at="2022-01-30T12:45:01 NPT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSelected -->
-        <test-method signature="Text()[pri:3, instance:A2A.Seleniummadeeasy.CheckBoxText@694abbdc]" started-at="2022-01-29T21:40:39 NPT" name="Text" finished-at="2022-01-29T21:40:39 NPT" duration-ms="50" status="PASS">
+        <test-method signature="Text()[pri:3, instance:A2A.Seleniummadeeasy.CheckBoxText@4372b9b6]" started-at="2022-01-30T12:45:01 NPT" name="Text" finished-at="2022-01-30T12:45:02 NPT" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Text -->
-        <test-method signature="uncheckedCheck()[pri:4, instance:A2A.Seleniummadeeasy.CheckBoxText@694abbdc]" started-at="2022-01-29T21:40:39 NPT" name="uncheckedCheck" finished-at="2022-01-29T21:40:39 NPT" duration-ms="346" status="PASS">
+        <test-method signature="uncheckedCheck()[pri:4, instance:A2A.Seleniummadeeasy.CheckBoxText@4372b9b6]" started-at="2022-01-30T12:45:02 NPT" name="uncheckedCheck" finished-at="2022-01-30T12:45:02 NPT" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uncheckedCheck -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:A2A.Seleniummadeeasy.CheckBoxText@694abbdc]" started-at="2022-01-29T21:40:39 NPT" name="closeBrowser" finished-at="2022-01-29T21:40:39 NPT" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:A2A.Seleniummadeeasy.CheckBoxText@4372b9b6]" started-at="2022-01-30T12:45:02 NPT" name="closeBrowser" finished-at="2022-01-30T12:45:02 NPT" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- A2A.Seleniummadeeasy.CheckBoxText -->
       <class name="A2A.Seleniummadeeasy.FirstPageTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:A2A.Seleniummadeeasy.FirstPageTest@3ce1e309]" started-at="2022-01-29T21:40:25 NPT" name="initialize" finished-at="2022-01-29T21:40:31 NPT" duration-ms="6367" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:A2A.Seleniummadeeasy.FirstPageTest@59d2400d]" started-at="2022-01-30T12:44:50 NPT" name="initialize" finished-at="2022-01-30T12:44:55 NPT" duration-ms="5467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="messageInput()[pri:1, instance:A2A.Seleniummadeeasy.FirstPageTest@3ce1e309]" started-at="2022-01-29T21:40:31 NPT" name="messageInput" finished-at="2022-01-29T21:40:32 NPT" duration-ms="437" status="PASS">
+        <test-method signature="messageInput()[pri:1, instance:A2A.Seleniummadeeasy.FirstPageTest@59d2400d]" started-at="2022-01-30T12:44:55 NPT" name="messageInput" finished-at="2022-01-30T12:44:56 NPT" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- messageInput -->
-        <test-method signature="twomessageInput()[pri:2, instance:A2A.Seleniummadeeasy.FirstPageTest@3ce1e309]" started-at="2022-01-29T21:40:32 NPT" name="twomessageInput" finished-at="2022-01-29T21:40:32 NPT" duration-ms="295" status="PASS">
+        <test-method signature="twomessageInput()[pri:2, instance:A2A.Seleniummadeeasy.FirstPageTest@59d2400d]" started-at="2022-01-30T12:44:56 NPT" name="twomessageInput" finished-at="2022-01-30T12:44:56 NPT" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twomessageInput -->
-        <test-method signature="SimpleformNavigate()[pri:3, instance:A2A.Seleniummadeeasy.FirstPageTest@3ce1e309]" started-at="2022-01-29T21:40:32 NPT" name="SimpleformNavigate" finished-at="2022-01-29T21:40:32 NPT" duration-ms="521" status="PASS">
+        <test-method signature="SimpleformNavigate()[pri:3, instance:A2A.Seleniummadeeasy.FirstPageTest@59d2400d]" started-at="2022-01-30T12:44:56 NPT" name="SimpleformNavigate" finished-at="2022-01-30T12:44:56 NPT" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SimpleformNavigate -->
-        <test-method signature="radioNavigation()[pri:4, instance:A2A.Seleniummadeeasy.FirstPageTest@3ce1e309]" started-at="2022-01-29T21:40:32 NPT" name="radioNavigation" finished-at="2022-01-29T21:40:33 NPT" duration-ms="339" status="PASS">
+        <test-method signature="radioNavigation()[pri:4, instance:A2A.Seleniummadeeasy.FirstPageTest@59d2400d]" started-at="2022-01-30T12:44:56 NPT" name="radioNavigation" finished-at="2022-01-30T12:44:57 NPT" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioNavigation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:A2A.Seleniummadeeasy.FirstPageTest@3ce1e309]" started-at="2022-01-29T21:40:33 NPT" name="closeBrowser" finished-at="2022-01-29T21:40:33 NPT" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:A2A.Seleniummadeeasy.FirstPageTest@59d2400d]" started-at="2022-01-30T12:44:57 NPT" name="closeBrowser" finished-at="2022-01-30T12:44:57 NPT" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- A2A.Seleniummadeeasy.FirstPageTest -->
+      <class name="A2A.Seleniummadeeasy.RadioboxTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:A2A.Seleniummadeeasy.RadioboxTest@232a7d73]" started-at="2022-01-30T12:45:02 NPT" name="initialize" finished-at="2022-01-30T12:45:06 NPT" duration-ms="4289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="emptyValue()[pri:1, instance:A2A.Seleniummadeeasy.RadioboxTest@232a7d73]" started-at="2022-01-30T12:45:06 NPT" name="emptyValue" finished-at="2022-01-30T12:45:07 NPT" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyValue -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:A2A.Seleniummadeeasy.RadioboxTest@232a7d73]" started-at="2022-01-30T12:45:07 NPT" name="closeBrowser" finished-at="2022-01-30T12:45:07 NPT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- A2A.Seleniummadeeasy.RadioboxTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,4 @@
+12:45:06.856 [main] INFO  A2A.Seleniummadeeasy.FirstPageTest - Checking displayed value without selecting any rardio button
+12:45:07.500 [main] INFO  A2A.Seleniummadeeasy.FirstPageTest - Radio button is Not checked
+12:45:07.501 [main] INFO  A2A.Seleniummadeeasy.FirstPageTest - Displayed message verified
+12:45:07.503 [main] INFO  A2A.Seleniummadeeasy.FirstPageTest - Closing driver

@@ -1,0 +1,5 @@
+12:45:02.358 [main] INFO  A2A.Seleniummadeeasy.CheckBoxText - Uncheck any one box
+12:45:02.395 [main] INFO  A2A.Seleniummadeeasy.CheckBoxText - Button value verified
+12:45:02.397 [main] INFO  A2A.Seleniummadeeasy.CheckBoxText - Closing driver
+12:45:02.566 [main] INFO  A2A.Seleniummadeeasy.FirstPageTest - Initializing Driver
+12:45:06.854 [main] INFO  A2A.Seleniummadeeasy.FirstPageTest - Driver Initialized

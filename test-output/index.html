@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -120,6 +120,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="A2A.Seleniummadeeasy.CheckBoxText" class="method navigator-link" hash-for-method="checkSelected">checkSelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="A2A.Seleniummadeeasy.RadioboxTest" class="method navigator-link" hash-for-method="emptyValue">emptyValue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -226,6 +231,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">A2A.Seleniummadeeasy.RadioboxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyValue">
+                  </a> <!-- emptyValue -->
+                  <span class="method-name">emptyValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -240,6 +260,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;A2A.Seleniummadeeasy.FirstPageTest&quot;/&gt;
       &lt;class name=&quot;A2A.Seleniummadeeasy.CheckBoxText&quot;/&gt;
+      &lt;class name=&quot;A2A.Seleniummadeeasy.RadioboxTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -253,7 +274,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -279,44 +300,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkDisplayedCheck')
-data.setCell(0, 2, 'A2A.Seleniummadeeasy.CheckBoxText')
-data.setCell(0, 3, 564);
+data.setCell(0, 1, 'emptyValue')
+data.setCell(0, 2, 'A2A.Seleniummadeeasy.RadioboxTest')
+data.setCell(0, 3, 646);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SimpleformNavigate')
-data.setCell(1, 2, 'A2A.Seleniummadeeasy.FirstPageTest')
-data.setCell(1, 3, 521);
+data.setCell(1, 1, 'checkDisplayedCheck')
+data.setCell(1, 2, 'A2A.Seleniummadeeasy.CheckBoxText')
+data.setCell(1, 3, 568);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'messageInput')
+data.setCell(2, 1, 'SimpleformNavigate')
 data.setCell(2, 2, 'A2A.Seleniummadeeasy.FirstPageTest')
-data.setCell(2, 3, 437);
+data.setCell(2, 3, 519);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'uncheckedCheck')
-data.setCell(3, 2, 'A2A.Seleniummadeeasy.CheckBoxText')
-data.setCell(3, 3, 346);
+data.setCell(3, 1, 'radioNavigation')
+data.setCell(3, 2, 'A2A.Seleniummadeeasy.FirstPageTest')
+data.setCell(3, 3, 388);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'radioNavigation')
-data.setCell(4, 2, 'A2A.Seleniummadeeasy.FirstPageTest')
-data.setCell(4, 3, 339);
+data.setCell(4, 1, 'uncheckedCheck')
+data.setCell(4, 2, 'A2A.Seleniummadeeasy.CheckBoxText')
+data.setCell(4, 3, 348);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'twomessageInput')
 data.setCell(5, 2, 'A2A.Seleniummadeeasy.FirstPageTest')
-data.setCell(5, 3, 295);
+data.setCell(5, 3, 259);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkSelected')
-data.setCell(6, 2, 'A2A.Seleniummadeeasy.CheckBoxText')
-data.setCell(6, 3, 115);
+data.setCell(6, 1, 'messageInput')
+data.setCell(6, 2, 'A2A.Seleniummadeeasy.FirstPageTest')
+data.setCell(6, 3, 224);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Text')
+data.setCell(7, 1, 'checkSelected')
 data.setCell(7, 2, 'A2A.Seleniummadeeasy.CheckBoxText')
-data.setCell(7, 3, 50);
+data.setCell(7, 3, 123);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Text')
+data.setCell(8, 2, 'A2A.Seleniummadeeasy.CheckBoxText')
+data.setCell(8, 3, 46);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -349,50 +374,65 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">messageInput</span>
-                <span class="method-start">6380 ms</span>
+                <span class="method-start">5482 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">twomessageInput</span>
-                <span class="method-start">6835 ms</span>
+                <span class="method-start">5712 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SimpleformNavigate</span>
-                <span class="method-start">7132 ms</span>
+                <span class="method-start">5975 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">radioNavigation</span>
-                <span class="method-start">7655 ms</span>
+                <span class="method-start">6498 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">7996 ms</span>
+                <span class="method-start">6889 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">A2A.Seleniummadeeasy.CheckBoxText</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">8161 ms</span>
+                <span class="method-start">7098 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkDisplayedCheck</span>
-                <span class="method-start">13184 ms</span>
+                <span class="method-start">10913 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkSelected</span>
-                <span class="method-start">13749 ms</span>
+                <span class="method-start">11483 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Text</span>
-                <span class="method-start">13866 ms</span>
+                <span class="method-start">11607 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">uncheckedCheck</span>
-                <span class="method-start">13917 ms</span>
+                <span class="method-start">11656 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">14264 ms</span>
+                <span class="method-start">12005 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">A2A.Seleniummadeeasy.RadioboxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">12174 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">emptyValue</span>
+                <span class="method-start">16464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">17111 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
