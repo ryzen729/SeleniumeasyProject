@@ -1,5 +1,10 @@
-12:45:02.358 [main] INFO  A2A.Seleniummadeeasy.CheckBoxText - Uncheck any one box
-12:45:02.395 [main] INFO  A2A.Seleniummadeeasy.CheckBoxText - Button value verified
-12:45:02.397 [main] INFO  A2A.Seleniummadeeasy.CheckBoxText - Closing driver
-12:45:02.566 [main] INFO  A2A.Seleniummadeeasy.FirstPageTest - Initializing Driver
-12:45:06.854 [main] INFO  A2A.Seleniummadeeasy.FirstPageTest - Driver Initialized
+15:16:56.877 [main] INFO  A2A.Seleniummadeeasy.RadioboxTest - Sex : Male
+Age group: 5 - 15
+15:16:57.011 [main] INFO  A2A.Seleniummadeeasy.RadioboxTest - Sex : Male
+Age group: 15 - 50
+15:16:57.151 [main] INFO  A2A.Seleniummadeeasy.RadioboxTest - Sex : Female
+Age group: 0 - 5
+15:16:57.285 [main] INFO  A2A.Seleniummadeeasy.RadioboxTest - Sex : Female
+Age group: 5 - 15
+15:16:57.415 [main] INFO  A2A.Seleniummadeeasy.RadioboxTest - Sex : Female
+Age group: 15 - 50

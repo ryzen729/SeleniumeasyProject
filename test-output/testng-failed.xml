@@ -5,9 +5,9 @@
     <classes>
       <class name="A2A.Seleniummadeeasy.RadioboxTest">
         <methods>
+          <include name="genderAge"/>
           <include name="initialize"/>
           <include name="closeBrowser"/>
-          <include name="emptyValue"/>
         </methods>
       </class> <!-- A2A.Seleniummadeeasy.RadioboxTest -->
     </classes>

@@ -20,7 +20,7 @@ public class RadioButton extends BasePage{
 	@FindBy(xpath = "//label[contains(text(),\"Female\")])[1]")
 	private WebElement female;
 	
-	@FindBy(xpath = "//label[contains(text(),\"Female\")])[2]")
+	@FindBy(xpath = "(//input[@name=\"gender\"])[2]")
 	private WebElement secondfemale;
 	
 	@FindBy(xpath = "(//label[contains(text(),\"Male\")])[2]")
@@ -38,14 +38,66 @@ public class RadioButton extends BasePage{
 	@FindBy(className = "radiobutton")
 	private WebElement text;
 	
+	@FindBy(xpath = "//button[contains(text(),\"Get values\")]")
+	private WebElement getvalue;
+	
+	@FindBy (className = "groupradiobutton")
+	private WebElement genderagetext;
+	
 	public WebElement checKValueButton() {
 		return this.button;
 	}
+	
+	public WebElement genderAgeText() {
+		return this.genderagetext;
+	}
+	
 	
 	public String displayedText() {
 		return this.text.getText();
 	}
 	
+	public void getValues(String gender,String age) {
+		gender = gender.strip().toLowerCase();
+		switch(age) {
+			case "0-5":
+				if (gender.equals("male")) {
+					this.clickButton(secondmale);
+				}else if(gender.equals("female")) {
+					this.clickButton(secondfemale);	
+				}
+				
+				this.clickButton(age0to5);
+				this.getvalue.click();
+				break;
+		
+	case "5-15":
+		if (gender.equals("male")) {
+			this.clickButton(secondmale);
+		}else if(gender.equals("female")) {
+			this.clickButton(secondfemale);	
+		}
+		
+		this.clickButton(age5to15);
+		this.getvalue.click();
+		break;
+		
+	case "15-50":
+		if (gender.equals("male")) {
+			this.clickButton(secondmale);
+		}else if(gender.equals("female")) {
+			this.clickButton(secondfemale);	
+		}
+		
+		this.clickButton(age15to50);
+		this.getvalue.click();
+		break;
+		
+	default:
+		System.out.println("Not a valid Age");
+		break;
+		}
+	}
 	
 	
 	
